@@ -1,0 +1,124 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-login{
+    width: 95%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;  
+}
+
+.login-box{
+    width: 450px;
+    height: 550px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:20px;
+}
+
+.titulo-login{
+    display: block;
+    font-family: Dancing Script, cursive;
+    font-size: 50px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    margin: 30px;
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.input1{
+    font-family: Dancing Script, cursive;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.2;
+    display: block;
+    width: 80%;
+    height: 50px;
+    background: transparent;
+    padding: 0 7px 0 43px;
+    margin: 10px 0 20px 18px;
+}
+
+.input-name, .input-password{
+    font-family:'Roboto', sans-serif;
+    padding: 20px;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+
+.forgot{
+    text-align: end;
+    margin: 20px;   
+}
+
+a{
+    text-decoration: none;
+    color:#696969 ;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #9400D3;
+}
+
+
+.login{
+    border-radius: 50px;
+    border-style: none;
+    width: 350px;
+    height: 50px;
+    text-transform: uppercase;
+    margin: -50px;
+}
+
+.login:hover{
+    color:#8B008B;
+    cursor: pointer;
+}
+
+.sign{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.orsign{
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.icones-signup{
+    display: block;
+    font-family: Dancing Script, cursive;
+    font-size: 50px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px;
+}
+
+.imagem1:hover, .imagem2:hover, .imagem3:hover{
+    scale: 1.10;
+}
+
+
+
+
